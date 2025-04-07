@@ -1,0 +1,57 @@
+/* src/components/Contact.css */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .contact-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 36px;
+    color: goldenrod;
+    margin-bottom: 15px;
+  }
+  
+  .contact-card h4 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  

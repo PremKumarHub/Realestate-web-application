@@ -1,0 +1,14 @@
+.scroll-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+    padding: 100px 20px;
+    text-align: center;
+    will-change: opacity, transform;
+  }
+  
+  .scroll-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
